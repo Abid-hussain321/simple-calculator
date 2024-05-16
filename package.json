@@ -1,6 +1,6 @@
 {
   "name": "kashi1-simple_calculator",
-  "version": "2.0.5",
+  "version": "4.0.5",
   "description": "simple calculator with Typescript, Node.js and Inquirer",
   "main": "index.js",
   "type": "module",

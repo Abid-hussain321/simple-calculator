@@ -1,4 +1,4 @@
-#! usr/bin/env node
+#! /usr/bin/env node
 //SHA_BANG 
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
@@ -20,8 +20,9 @@ else if (answer.operator === "Subtraction") {
 }
 else if (answer.operator === "Multiplication") {
     console.log(answer.num1 * answer.num2);
-    // } else if (answer.operator === "Division") {
-    //   console.log (answer.num1 / answer.num2 );
+}
+else if (answer.operator === "Division") {
+    console.log(answer.num1 / answer.num2);
 }
 else {
     console.log("please enter valid operator");
